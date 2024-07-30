@@ -1,3 +1,8 @@
+/**
+For those confused about the wording of the description, it's basically saying that no 'b' can come before any 'a' in a balanced string
+
+The use of "pair" in the description is overly complicated, all it means is that there can exist no such 'b' at s[i] where s[j] is 'a' and i < j
+ */
 class Solution {
     public int minimumDeletions(String s) {
         Stack<Character> st = new Stack<>();
