@@ -21,6 +21,7 @@ class Solution {
                 currentInterval = interval;
             }
         }
+        //Here the last interval not added that's why
         res.add(currentInterval);
 
 
