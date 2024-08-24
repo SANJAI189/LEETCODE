@@ -6,6 +6,7 @@ class Solution {
             if(nums[r] == 0){
                 zeros++;
             }
+            //if it is exceeded when run a loop to move l to find the next possible solution 
             while(zeros > k){
                 if(nums[l] == 0){
                     zeros--;
